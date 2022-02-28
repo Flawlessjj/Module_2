@@ -1,0 +1,243 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+
+}
+.heading{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.content{
+    border: 1px solid black;
+    
+}
+
+@media only screen and (min-width: 992px) {
+.area1{
+    width: 29.3%;
+    float: left;
+    border: 3px solid black;
+    overflow: hidden;
+    padding-bottom: 2%;
+    margin: 2%;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.area2{
+    width: 29.3%;
+    float: left;
+    border: 3px solid black;
+    
+    padding-bottom: 2%;
+    margin: 2%;
+    background-color: gray;
+    box-sizing: border-box;
+}
+.area3{
+    width: 29.3%;
+    float: left;
+    border: 3px solid black;
+    
+    padding-bottom: 2%;
+    margin: 2%;
+    background-color: green;
+    box-sizing: border-box;
+}   
+
+.title{
+    
+    box-sizing: border-box;
+    float: right;
+    vertical-align: top;
+    background-color: rgb(202, 147, 147);
+    display:inline-block;
+    margin-left: 99%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.title1{
+    
+    box-sizing: border-box;
+    float: right;
+    vertical-align: top;
+    background-color: brown;
+    display:inline-block;
+    margin-left: 99%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.title2{
+    
+    box-sizing: border-box;
+    float: right;
+    vertical-align: top;
+    background-color: rgb(243, 179, 95);
+    display:inline-block;
+    margin-left: 99%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+}
+@media only screen and (max-width: 991px) {
+    .area1{
+        width: 46%;
+        float: left;
+        border: 3px solid black;
+        overflow: hidden;
+        padding-bottom: 2%;
+        margin: 2%;
+        background-color: aqua;
+        box-sizing: border-box;
+    }
+    
+    .area2{
+        width: 46%;
+        float: left;
+        border: 3px solid black;
+        
+        padding-bottom: 2%;
+        margin: 2%;
+        background-color: gray;
+        box-sizing: border-box;
+    }
+    .area3{
+        width: 96%;
+        float: left;
+        border: 3px solid black;
+        
+        padding-bottom: 2%;
+        margin: 2%;
+        background-color: green;
+        box-sizing: border-box;
+    }  
+    .title{
+    
+        box-sizing: border-box;
+        float: right;
+        vertical-align: top;
+        background-color: rgb(202, 147, 147);
+        display:inline-block;
+        margin-left: 99%;
+        padding-left: 3%;
+        padding-right: 3%;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    .title1{
+        
+        box-sizing: border-box;
+        float: right;
+        vertical-align: top;
+        background-color: brown;
+        display:inline-block;
+        margin-left: 99%;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    .title2{
+        
+        box-sizing: border-box;
+        float: right;
+        vertical-align: top;
+        background-color: rgb(243, 179, 95);
+        display:inline-block;
+        margin-left: 99%;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .area1{
+        width: 96%;
+        float: left;
+        border: 3px solid black;
+        overflow: hidden;
+        padding-bottom: 2%;
+        margin: 2%;
+        background-color: aqua;
+        box-sizing: border-box;
+    }
+    
+    .area2{
+        width: 96%;
+        float: left;
+        border: 3px solid black;
+        
+        padding-bottom: 2%;
+        margin: 2%;
+        background-color: gray;
+        box-sizing: border-box;
+    }
+    .area3{
+        width: 96%;
+        float: left;
+        border: 3px solid black;
+        
+        padding-bottom: 2%;
+        margin: 2%;
+        background-color: green;
+        box-sizing: border-box;
+    }  
+    .title{
+    
+        box-sizing: border-box;
+        float: right;
+        vertical-align: top;
+        background-color: rgb(202, 147, 147);
+        display:inline-block;
+        margin-left: 99%;
+        padding-left: 3%;
+        padding-right: 3%;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    .title1{
+        
+        box-sizing: border-box;
+        float: right;
+        vertical-align: top;
+        background-color: brown;
+        display:inline-block;
+        margin-left: 99%;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    .title2{
+        
+        box-sizing: border-box;
+        float: right;
+        vertical-align: top;
+        background-color: rgb(243, 179, 95);
+        display:inline-block;
+        margin-left: 99%;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-left: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+}
